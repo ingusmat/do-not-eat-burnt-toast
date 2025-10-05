@@ -6,7 +6,7 @@ defineProps<{ msg: string }>();
 
 <template>
   <div class="big-clem">
-    <img src="../assets/clem.svg" alt="Big Clem" />
+    <img src="../assets/FastHappyLoudClem.png" alt="Big Clem" />
   </div>
   <div>
     <h1>{{ msg }}</h1>
@@ -25,7 +25,7 @@ defineProps<{ msg: string }>();
 
 .big-clem img {
   height: 120vh;
-  opacity: 0.3;
+  opacity: 0.8;
   object-fit: cover;
 }
 </style>
