@@ -16,15 +16,15 @@ defineProps<{ msg: string }>();
 <style scoped>
 .big-clem {
   position: absolute;
-  top: -10vh;
-  left: -10vh;
+  top: 0;
+  left: 0;
   z-index: -1;
-  height: 110vh;
+  height: 100vh;
   overflow-y: hidden;
 }
 
 .big-clem img {
-  height: 120vh;
+  height: 100vh;
   opacity: 0.8;
   object-fit: cover;
 }
